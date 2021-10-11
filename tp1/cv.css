@@ -4,12 +4,8 @@ table {
   width: 100%;
 }
 
-th,
-td,
-tr {
+th,td,tr {
   border: 1px solid black;
+  text-align:left;
 }
-th{
-    font-weight: lighter;
-    text-align:left;
-}
+
