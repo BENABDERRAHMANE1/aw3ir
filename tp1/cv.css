@@ -1,0 +1,15 @@
+
+table {
+  border: 1px solid black;
+  width: 100%;
+}
+
+th,
+td,
+tr {
+  border: 1px solid black;
+}
+th{
+    font-weight: lighter;
+    text-align:left;
+}
