@@ -1,44 +1,96 @@
 body{
-    background-color: #e9ebee;              
-    /* font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; */
+    
+    align-items: center;
+    background-color: rgb(33, 78, 114); 
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.subtitle{
+  
+    color: #eee;
+    font-family: sans-serif;
     font-size: 16px;
-    margin: 0 auto;
-    max-width: 800px;              
-}
-body h1{
-    font-family:serif;
-    font-size: 40px;
-}
-/* .class1{
-    background-color: white;
-    height:250px;
-    width:600px;
-   
-} */
-/* .class1 form label{
-    font-weight:500;
-    font-size: 18px;
-    font-family: serif;
-} */
+    font-weight: 600;
+    margin-top: 10px;
+  }
 
-
-#error
-{
+.class1 {
+  background-color:#15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 360px;
+  color: #eee;
+  font-size:20px;
+}
+#error{
 background-color: pink;
-/* padding : 5px; */
-/* border: 1px solid black; */
 font-family: serif;
-/* font-size:18px; */
-/* padding-left: 10px; */
+}
+#resultat{
+background-color: green;
+color: white;
+
 }
 
+table {
+    margin-top: 30px;
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
 
-#resultat{
-
-background-color: green;
-/* padding : 5px; */
-color: white;
-/* font-weight: bold; */
-/* font-family: serif; */
-/* padding-left: 10px; */
+input[type="button"]{
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  color: #eee; 
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  text-align: center;
+  width: 100%;
+}
+input[type="text"]{
+  background-color: rgb(64, 67, 68);
+  border-radius: 12px;
+  border: 0;
+  color: #eee; 
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;  
+  text-align: center;
+  width: 100%;
+}
+input[type="email"]{
+  background-color: rgb(64, 67, 68);
+  border-radius: 12px;
+  border: 0;
+  color: #eee; 
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  text-align: center;
+  width: 100%;
+}
+input[type="date"]{
+  background-color: rgb(64, 67, 68);
+  border-radius: 12px;
+  border: 0;
+  color: #eee; 
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px; 
+  text-align: center;
+  width: 100%;
 }

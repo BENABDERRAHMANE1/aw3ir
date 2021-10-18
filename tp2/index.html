@@ -4,50 +4,48 @@
 <head>
 
     <title>TP2</title>
-
     <link rel="stylesheet" href="style.css">
-  
     <script type="text/javascript" src="formulaire.js"></script>
 </head>
 
 <body>
-  
-    <h1>Saisie d'une fiche "Personne" </h1>
+
+
     <div class="class1">
-        <table>
         <form id="MyFormulaire">
-        <tr>
-            <td><label for="nom">Nom</label></td>
-            <td><input id="nom" type="text" name="nom"></td>
-        </tr>
 
-        <tr>
-            <td><label for="prenom">Prenom</label></td>
-            <td><input id="prenom" type="text" name="prenom"></td>
-        </tr>
+            <div class="title">Welcome</div>
+            <div class="subtitle">Let's create your account!</div>
+        
+            <table>
+              
+                <tr>
+                    <td><input id="nom" type="text" name="nom" placeholder="Last name"></td>
+                </tr>
 
-        <tr>
-            <td><label for="Date de naissance">Date de naissance</label></td>
-            <td><input id="Date de naissance" type="date" name="Date de naissance" placeholder="JJ/MM/AAAA"></td>
-        </tr>
-        <tr>
-            <td><label for="Adresse">Adresse</label></td>
-           <td> <input id="Adresse" type="text" name="Adresse"></td>
-        </tr>
-        <tr>
-            <td><label for="Mail">Mail</label></td>
-            <td><input id="Mail" type="email" name="Mail"></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><input type="button" value="Valider" onclick="validation() "> <br><br></td>
-        </tr> 
+                <tr>
+                    <td><input id="prenom" type="text" name="prenom" placeholder="First name"></td>
+                </tr>
+
+                <tr>
+                    <td><input id="Date de naissance" type="date" name="Date de naissance" placeholder="JJ/MM/AAAA">
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input id="Adresse" type="text" name="Adresse" placeholder="Adress"></td>
+                </tr>
+                <tr>
+                    <td><input id="Mail" type="email" name="Mail" placeholder="Email"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Valider" onclick="validation() "> </td>
+                </tr>
+            </table>
         </form>
-    </table>
         <div id="error"> </div>
 
         <div id="resultat"> </div>
-        
+
     </div>
 </body>
 
