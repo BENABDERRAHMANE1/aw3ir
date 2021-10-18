@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <title>TP2</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="formulaire.js"></script>
+</head>
+
+<body>
+
+
+    <div class="class1">
+        <form id="MyFormulaire">
+        
+
+            <div class="title">NINA RICCI</div>
+            <div class="subtitle">Recevez votre échantillon gratuit!!!</div>
+            
+            <br>
+            <div class="civilite">
+            <label for="Civilite">Civilité</label>
+            <select name="Civilite" id="Civilité">
+                <option value="Madame">Madame</option>
+                <option value="Monsieur">Monsieur</option>
+            </select>
+        </div>
+            <table>
+              
+                <tr>
+                    <td><input id="nom" type="text" name="nom" placeholder="Last name"></td>
+                </tr>
+
+                <tr>
+                    <td><input id="prenom" type="text" name="prenom" placeholder="First name"></td>
+                </tr>
+
+                <tr>
+                    <td><input id="Date de naissance" type="date" name="Date de naissance" placeholder="JJ/MM/AAAA" > 
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input id="Adresse" type="text" name="Adresse" placeholder="Adress"></td>
+                </tr>
+                <tr>
+                    <td><input id="Mail" type="email" name="Mail" placeholder="Email"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Valider" onclick="validation() "> </td>
+                </tr>
+            </table>
+        </form>
+        <br>
+        <div class="checkbox">
+            <input type="checkbox" id="id1" name="id1">
+            <label for="id1">Je souhaite recevoir les actualités de Nina Ricci</label>
+        
+<br>
+        
+            <input type="checkbox" id="id2" name="id2">
+            <label for="id2">J'accepte les mentions légales </label>
+        </div>
+        <div id="error"> </div>
+
+        <div id="resultat"> </div>
+
+    </div>
+</body>
+
+</html>

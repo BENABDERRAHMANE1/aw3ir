@@ -1,0 +1,113 @@
+body{
+    align-items: center;
+    background-color: pink; 
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title {
+  color:black;
+  font-family: serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.subtitle{
+  color:black;
+  font-family: serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+.class1 {
+  background-image: url("ricci.jpg");
+  background-position: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 620px;
+  
+  width: 360px;
+  color: #eee; 
+  font-size:20px;
+
+}
+
+
+
+#error{
+background-color: pink;
+font-family: serif;
+}
+#resultat{
+background-color: green;
+color: white;
+
+}
+
+table {
+    margin-top: 30px;
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+
+input[type="button"]{
+  background-color: pink;
+  border-radius: 12px;
+  border: 0;
+  color: black; 
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  text-align: center;
+  width: 100%;
+}
+input[type="text"]{
+  background-color: papayawhip;
+  border-radius: 12px;
+  border: 0;
+  color: black ;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;  
+  text-align: center;
+  width: 100%;
+  background-size: cover;
+  
+}
+input[type="email"]{
+  background-color: papayawhip;
+  border-radius: 12px;
+  border: 0;
+  color: black; 
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  text-align: center;
+  width: 100%;
+  background-size: cover;
+}
+input[type="date"]{
+  background-color: papayawhip;
+  border-radius: 12px;
+  border: 0;
+ 
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px; 
+  text-align: center;
+  width: 100%;
+  background-size: cover;
+  color:grey;
+}
+.checkbox{
+  color:black;
+  font-size: 15px;
+}
+.civilite{
+  color:black;
+  font-size: medium;
+}
