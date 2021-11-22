@@ -1,0 +1,11 @@
+.container {
+    background-color: rgb(95,158,160, 0.2);              
+    font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 100%; 
+}
+.container h2{
+    text-align: center;
+    margin: 50px 0;
+}
